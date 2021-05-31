@@ -9,9 +9,25 @@
 }
 .sidebar .links li:hover {
   background: rgba(0, 0, 0, 0.2);
-  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  
 }
 
-.sidebar .active {
-  background: rgba(0, 0, 0, 0.1);
+.sidebar .links li:active {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+ 
+}
+
+.sidebar .links li {
+  color: black;
+}
+
+.sidebar .navlinks {
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.2);
 }

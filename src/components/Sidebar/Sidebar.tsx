@@ -1,4 +1,5 @@
 import { FunctionComponent } from 'react';
+import { NavLink } from 'react-router-dom'
 
 import './Sidebar.css';
 
@@ -8,12 +9,17 @@ const Sidebar: FunctionComponent<Props> = (props: Props) => {
   return (
     <section className="sidebar">
       <ul className="links">
-        <li className="active">
+        <NavLink to="/" className="navlinks">
+          <li className="active">
           Appointments
-        </li>
-        <li>
+          </li>
+        </NavLink>
+        <NavLink to="/setttings" className="navlinks">
+          <li className="link">
           Settings
-        </li>
+          </li>
+        </NavLink>
+       
       </ul>
     </section>
   );

@@ -1,0 +1,26 @@
+.cells {
+    width: 45em;
+    vertical-align: top;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.cell-one {
+    width: 25em;
+    font-size: 14px;
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+.title {
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+.button {
+    margin-left: 5px;
+}
+.image {
+    width: 70px;
+}
+.overlay {
+    background-color: white;
+    opacity: 0.5; 
+}
