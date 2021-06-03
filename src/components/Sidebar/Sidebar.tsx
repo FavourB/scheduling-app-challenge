@@ -14,11 +14,11 @@ const Sidebar: FunctionComponent<Props> = (props: Props) => {
           Appointments
           </li>
         </NavLink>
-        <NavLink to="/setttings" className="navlinks">
+       
           <li className="link">
           Settings
           </li>
-        </NavLink>
+   
        
       </ul>
     </section>

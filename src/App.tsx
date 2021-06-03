@@ -2,8 +2,8 @@ import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Sidebar from './components/Sidebar';
-import Appointments from './components/Appointments/Appointments';
-import Settings from './components/Settings/Settings';
+import Appointments from './components/Appointments';
+
 
 function App() {
   return (
@@ -16,7 +16,6 @@ function App() {
         <main>
           <Switch>
             <Route exact path="/" component={Appointments} />
-            <Route exact path="settings" component={Settings} />
           </Switch>
         </main>
       </div>

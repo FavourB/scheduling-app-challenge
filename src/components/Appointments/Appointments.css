@@ -1,3 +1,6 @@
+.error {
+    color: red;
+}
 .cells {
     width: 45em;
     vertical-align: top;
